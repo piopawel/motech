@@ -264,8 +264,7 @@ manipulation-sorter .manipulation .remove:before {
 
 .tasks .map-field .field-text{
     float: left;
-    max-width: 80%;
-    white-space: nowrap;
+    max-width: 82%;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -274,6 +273,18 @@ manipulation-sorter .manipulation .remove:before {
     float: right;
     display: inline;
 }
+
+.tasks .field-bubble .popover{
+    visibility: hidden;
+}
+
+.tasks .map-field .popover{
+    color: #000000;
+    visibility: visible;
+}
+
+
+
 
 .tasks .actionField.period-input {
     height: auto;
